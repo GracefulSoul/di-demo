@@ -1,0 +1,12 @@
+yskim:
+  jms:
+    username: JMS Username
+    password: somepass
+    dburl: someUrl
+    
+---
+spring:
+    profiles: de
+yskim:
+  jms:
+    username: JMS Username $$$ GERMAN
